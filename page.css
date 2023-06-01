@@ -1,0 +1,750 @@
+body{
+    z-index: 0;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+    background: #ffffff;
+}
+
+.header{
+    z-index: 1;
+    position: absolute;
+    width: 100vh;
+    height: 70px;
+    left: 0;
+    top: 0;
+
+    border: 1px solid #000005;
+}
+
+.container1{
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+
+    background: #00000050;
+}
+
+.homems{
+    position: absolute;
+    display: inline-block;
+    left: 24%;
+    top: 28px;
+    word-spacing: 30px;
+    letter-spacing: 1px;
+    list-style: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #888888;
+}
+.colle:hover{
+    position: relative;
+    text-decoration: line-through;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.men:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.woman:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.about:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.cont:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+
+    color: #000000;
+}
+
+.logo{
+    z-index: 0;
+    position: absolute;
+    top: 24px;
+    left: 100%;
+}
+
+.perfil{
+    position: absolute;
+    width: 40px;
+    left: 200%;
+    top: -10px;
+}
+
+.car{
+    position: absolute;
+    left: 184%;
+    cursor: pointer;
+}
+
+.container2{
+    position: absolute;
+    width: 800px;
+    height: 440px;
+    left: 20%;
+    top: 20vh;
+
+    border: none;
+}
+
+.img_main{
+    position: relative;
+    width: 360px;
+    height: 300px;
+    left: 0;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+.foto1{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 0;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto1:hover{
+    top: 320px;
+    left: 93px;
+}
+
+.foto2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 93px;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto2:hover{
+    top: 316px;
+    left: 89px;
+    opacity: 50%;
+    border: 4px solid #fc7e17;
+}
+.foto3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 185px;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto3:hover{
+    top: 316px;
+    left: 181px;
+    opacity: 50%;
+    border: 4px solid #fc7e17;
+}
+
+.foto4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 278px;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto4:hover{
+    top: 316px;
+    left: 274px;
+    opacity: 50%;
+    border: 4px solid #fc7e17;
+}
+
+button[type="buy"]{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 530px;
+    top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    
+    box-shadow: 2px 2px 10px #00000080;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    background: rgb(253, 148, 56);
+}
+button[type="buy"]:hover{
+    background: rgb(255, 165, 86);
+}
+
+.cart{
+    position: relative;
+    left: -6px;
+}
+
+.quantidade{
+    position: absolute;
+    left: 390px;
+    top: 300px;
+    margin: 0;
+    border: none;
+}
+
+button[type="button1"]{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+
+    color: rgb(253, 148, 56);
+    border-radius: 6px 0px 0px 6px;
+    background: #ececec;
+}
+button[type="button1"]:hover{
+    background: #32323220;
+}
+
+button[type="button2"]{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: -4px;
+    border: none;
+    font-size: large;
+
+    background: #eeeeee;
+}
+
+button[type="button3"]{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+
+    color: rgb(253, 148, 56);
+    border-radius: 0px 6px 6px 0px;
+    background: #ececec;
+}
+button[type="button3"]:hover{
+    background: #32323220;
+}
+
+.box_left{
+    position: relative;
+    left: 40px;
+}
+.company{
+    position: absolute;
+    left: 390px;
+    top: 30px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+    color: rgb(253, 148, 56);
+}
+
+.titulo{
+    position: absolute;
+    width: 280px;
+    top: 40px;
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    left: 390px;
+
+    text-shadow: 2px 2px 10px #00000050;
+
+}
+
+.text{
+    position: absolute;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    left: 390px;
+    top: 150px;
+    line-height: 20px;
+
+    color: #888888;
+}
+
+.preco{
+    position: absolute;
+    left: 390px;
+    font-size: larger;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 210px;
+}
+
+.desc{
+    position: absolute;
+    left: 500px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 221px;
+
+    color: rgb(253, 148, 56);
+    background-color: #f9efe6;
+}
+
+.preco2{
+    position: absolute;
+    left: 390px;
+    top: 250px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+
+    color: #888888;
+}
+body{
+    z-index: 0;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+    background: #ffffff;
+}
+
+.header{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+
+    border: 1px solid #b5b5b5;
+}
+
+.container1{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+}
+
+.homems{
+    position: absolute;
+    display: inline-block;
+    left: 24%;
+    top: 28px;
+    word-spacing: 30px;
+    letter-spacing: 1px;
+    list-style: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #888888;
+}
+.colle:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.men:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.woman:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.about:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+
+    color: #000000;
+}
+.cont:hover{
+    position: relative;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+
+    color: #000000;
+}
+
+.logo{
+    z-index: 0;
+    position: absolute;
+    top: 24px;
+    left: 110px;
+}
+
+.perfil{
+    position: absolute;
+    width: 40px;
+    left: 200%;
+    top: -14px;
+}
+
+.car{
+    position: absolute;
+    left: 184%;
+    cursor: pointer;
+}
+
+.container2{
+    position: absolute;
+    width: 800px;
+    height: 440px;
+    left: 20%;
+    top: 20vh;
+
+    border: none;
+}
+
+.img_main{
+    position: relative;
+    width: 360px;
+    height: 300px;
+    left: 0;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+.foto1{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 0;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto1:hover{
+    top: 316px;
+    left: -4px;
+    opacity: 50%;
+    border: 4px solid #fc7e17;
+}
+
+.foto2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 93px;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto2:hover{
+    top: 316px;
+    left: 89px;
+    opacity: 50%;
+    border: 4px solid #fc7e17;
+}
+.foto3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 185px;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto3:hover{
+    top: 316px;
+    left: 181px;
+    opacity: 50%;
+    border: 4px solid #fc7e17;
+}
+
+.foto4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 320px;
+    left: 278px;
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+.foto4:hover{
+    top: 316px;
+    left: 274px;
+    opacity: 50%;
+    border: 4px solid #fc7e17;
+}
+
+button[type="buy"]{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 530px;
+    top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    
+    box-shadow: 2px 2px 10px #00000080;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    background: rgb(253, 148, 56);
+}
+button[type="buy"]:hover{
+    background: rgb(255, 165, 86);
+}
+
+.cart{
+    position: relative;
+    left: -6px;
+}
+
+.quantidade{
+    position: absolute;
+    left: 390px;
+    top: 300px;
+    margin: 0;
+    border: none;
+}
+
+button[type="button1"]{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+
+    color: rgb(253, 148, 56);
+    border-radius: 6px 0px 0px 6px;
+    background: #ececec;
+}
+button[type="button1"]:hover{
+    background: #32323220;
+}
+
+button[type="button2"]{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: -4px;
+    border: none;
+    font-size: large;
+
+    background: #eeeeee;
+}
+
+button[type="button3"]{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+
+    color: rgb(253, 148, 56);
+    border-radius: 0px 6px 6px 0px;
+    background: #ececec;
+}
+button[type="button3"]:hover{
+    background: #32323220;
+}
+
+.box_left{
+    position: relative;
+    left: 40px;
+}
+.company{
+    position: absolute;
+    left: 390px;
+    top: 30px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+    color: rgb(253, 148, 56);
+}
+
+.titulo{
+    position: absolute;
+    width: 280px;
+    top: 40px;
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    left: 390px;
+
+    text-shadow: 2px 2px 10px #00000050;
+
+}
+
+.text{
+    position: absolute;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    left: 390px;
+    top: 150px;
+    line-height: 20px;
+
+    color: #888888;
+}
+
+.preco{
+    position: absolute;
+    left: 390px;
+    font-size: larger;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 210px;
+}
+
+.desc{
+    position: absolute;
+    left: 500px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 221px;
+
+    color: rgb(253, 148, 56);
+    background-color: #f9efe6;
+}
+
+.preco2{
+    position: absolute;
+    left: 390px;
+    top: 250px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+
+    color: #888888;
+}
+
+.overlay{
+    z-index: 2;
+    position: relative;
+    width: 1800px;
+    height: 850px;
+    top: 0;
+    left: 0;
+    padding-left: 100px;
+    padding-top: 100px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
+    cursor: pointer;
+
+
+    background-color: #00000080;
+}
+.foto1_open{
+    position: absolute;
+    border-radius: 10px;
+    top: 140px;
+    left: 100px;
+    width: 660px;
+    height: 600px;
+}
+.foto2_open{
+    position: absolute;
+    border-radius: 10px;
+    top: 140px;
+    left: 800px;
+    width: 660px;
+    height: 600px;
+}
+.foto3_open{
+    position: absolute;
+    border-radius: 10px;
+    top: 140px;
+    left: 1500px;
+    width: 660px;
+    height: 600px;
+}
+.foto4_open{
+    position: absolute;
+    padding-right: 100px;
+    border-radius: 10px;
+    top: 140px;
+    left: 2200px;
+    width: 660px;
+    height: 600px;
+}
+
+button[type="button_close"]{
+    position: fixed;
+    top: 80px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding-top: 4px;
+    background: #FFFFFF;
+    border-radius: 28px;
+    cursor: pointer;
+}
